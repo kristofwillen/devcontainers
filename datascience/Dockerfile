@@ -3,7 +3,7 @@ FROM python:3.12-slim
 WORKDIR /code
 
 RUN apt update
-RUN apt -y install vim fish
+RUN apt -y install vim fish git
 
 COPY ./src ./src
 
